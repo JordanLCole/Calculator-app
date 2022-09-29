@@ -85,11 +85,10 @@ function operatorPressed(operator) {
 
 function decimalAdded(event) {
     console.log('decimal added')
-    let decimalise = displayWindow.textContent + '.';
-    displayWindow.textContent = decimalise;
+    displayWindow.textContent = displayValue + '.';
 }
 
-//division operator
+//Operators
 
 function operateDivide(event) {
     console.log('pressed divide');
