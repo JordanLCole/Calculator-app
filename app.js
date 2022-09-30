@@ -83,6 +83,9 @@ function operatorPressed(operator) {
     };
 };
 
+
+//Decimalisation - not functional....
+
 function decimalAdded(event) {
     console.log('decimal added')
     displayWindow.textContent = displayValue + '.';
